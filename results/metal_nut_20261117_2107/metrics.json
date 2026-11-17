@@ -1,0 +1,25 @@
+{
+  "category": "metal_nut",
+  "n_test_good": 22,
+  "n_test_defective": 93,
+  "image_auroc": 0.9961,
+  "pixel_auroc": 0.9879,
+  "zero_escapes": {
+    "threshold": 0.6657,
+    "false_rejects": 2,
+    "false_reject_rate": 0.0909
+  },
+  "zero_false_rejects": {
+    "threshold": 0.7026,
+    "escapes": 5,
+    "escape_rate": 0.0538
+  },
+  "mean_score_by_type": {
+    "bent": 0.884,
+    "color": 0.892,
+    "flip": 0.996,
+    "good": 0.592,
+    "scratch": 0.844
+  },
+  "memory_bank_size": 17248
+}
